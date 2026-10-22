@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--
+    Sony Xperia XZ1 Compact (lilac / lilac_dcm) — LineageOS 22.2
+
+    These projects are the public source publication of the device trees and
+    kernel used by yal3ay/xz1c-lineageos-22. They are pinned to the
+    lineage-22.2 branch.
+
+    Sony proprietary files (vendor/sony/**) are intentionally not published
+    and are not listed as a project. Extract them from a device or firmware
+    image that you legally own, using the device tree's extract-files.sh.
+  -->
+  <project name="yal3ay/android_device_sony_lilac"
+           path="device/sony/lilac"
+           remote="github" revision="lineage-22.2" />
+
+  <project name="yal3ay/android_device_sony_yoshino-common"
+           path="device/sony/yoshino-common"
+           remote="github" revision="lineage-22.2" />
+
+  <project name="yal3ay/android_kernel_sony_msm8998"
+           path="kernel/sony/msm8998"
+           remote="github" revision="lineage-22.2" />
+</manifest>

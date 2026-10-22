@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--
+    Sony stock camera stack for LineageOS 22.2.
+
+    The camera vendor tree is Sony proprietary and is NOT published here.
+    Extract it from a device or firmware image that you legally own and place
+    it at vendor/sony/camera. Do not redistribute the extracted files.
+
+    This file is intentionally left without a <project> entry so that a
+    manifest sync never pulls a proprietary mirror from an untrusted source.
+  -->
+</manifest>

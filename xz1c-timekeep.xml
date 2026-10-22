@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XZ1C: Qualcomm RTC is read-only; timekeep stores/restores the RTC offset so the clock
+     survives a power cycle without SIM/NITZ (2026-10-08). -->
+<manifest>
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github" revision="lineage-22.2" />
+</manifest>
